@@ -45,13 +45,18 @@ export default {
       type: "image",
     },
     {
-      name: "acceptImageTitle",
-      title: "Accept Image Title ",
+      name: "acceptTitle",
+      title: "Accept Title ",
       type: "string",
+    },
+    {
+      name: "acceptDesc",
+      title: "Accept Description ",
+      type: "blockContent",
     },
 
     {
-      name: "FooterTitle",
+      name: "footerTitle",
       title: "Footer Title",
       type: "string",
     },

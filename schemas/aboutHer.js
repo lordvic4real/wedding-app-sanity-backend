@@ -17,7 +17,7 @@ export default {
     {
       name: "bannerDescription",
       title: "Banner Description",
-      type: "string",
+      type: "blockContent",
     },
     {
       name: "mainBio",

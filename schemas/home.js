@@ -4,72 +4,33 @@ export default {
   type: "document",
   fields: [
     {
-      name: "slideImages",
-      title: "Slider Images",
+      name: "carosel",
+      title: "Carousel",
       type: "array",
-      of: [
-        {
-          type: "image",
-        },
-        {
-          title: "Slider Details",
-          type: "object",
-          fields: [
-            {
-              name: "weddingDate",
-              title: "Wedding Date",
-              type: "date",
-              options: {
-                dateFormat: "YYYY-MM-DD",
-                calendarTodayLabel: "Today",
-              },
-            },
-            {
-              name: "title",
-              title: "Slider Title",
-              type: "string",
-            },
-            {
-              name: "description",
-              title: "Slider Description",
-              type: "string",
-            },
-          ],
-        },
-      ],
+      of: [{ type: "slides" }],
     },
 
     {
-      name: "coupleIntroTitle",
+      name: "introTitle",
       title: "Couple Intro",
       type: "string",
     },
     {
-      name: "coupleHighlight",
-      title: "Couple Highlight Description",
+      name: "introStory",
+      title: "Intro Story",
       type: "blockContent",
     },
     {
-      name: "coupleIntroImage",
-      title: "Couple Image",
+      name: "couple",
+      title: "The Couple",
       type: "array",
       of: [
         {
-          type: "image",
-          // name: "coupleImage",
+          type: "card",
         },
       ],
     },
-    {
-      name: "coupleIntroDescription",
-      type: "array",
-      title: "Couple Intro Description",
-      of: [
-        {
-          type: "string",
-        },
-      ],
-    },
+
     {
       name: "location",
       title: "Location",
@@ -96,31 +57,11 @@ export default {
       type: "string",
     },
     {
-      name: "weddingDetail",
-      title: "Wedding Info Card",
+      name: "card",
+      title: "Card",
       type: "array",
 
-      of: [
-        {
-          type: "image",
-        },
-        {
-          title: "Card Details",
-          type: "object",
-          fields: [
-            {
-              name: "description",
-              type: "string",
-              title: "Card Description",
-            },
-            {
-              name: "title",
-              type: "string",
-              title: "Card Title",
-            },
-          ],
-        },
-      ],
+      of: [{ type: "card" }],
     },
 
     {

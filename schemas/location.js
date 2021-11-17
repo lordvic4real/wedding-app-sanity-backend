@@ -10,41 +10,23 @@ export default {
       type: "image",
     },
     {
-      name: "bannerTitle",
-      title: "Banner Title",
+      name: "title",
+      title: "Title",
       type: "string",
+    },
+    {
+      name: "description",
+      title: "Description",
+      type: "text",
     },
 
     {
-      name: "ceremonyLocation",
-      title: "Ceremony Location",
+      name: "locationDetails",
+      title: "Ceremony Location Details",
       type: "array",
       of: [
         {
-          type: "string",
-          name: "ceremonyLocationTitle",
-        },
-      ],
-    },
-    {
-      name: "ceremonyLocationSubtitle",
-      title: "Ceremony Location Subtitle",
-      type: "array",
-      of: [
-        {
-          type: "string",
-          name: "ceremonyLocationSubtitle",
-        },
-      ],
-    },
-    {
-      name: "ceremonyLocationImage",
-      title: "Ceremony Location Image",
-      type: "array",
-      of: [
-        {
-          type: "image",
-          name: "image",
+          type: "locationCard",
         },
       ],
     },

@@ -31,7 +31,7 @@ export default {
       title: "I Will Attend",
       fields: [
         {
-          name: "email",
+          name: "trad",
           type: "boolean",
           title: "Traditional",
         },

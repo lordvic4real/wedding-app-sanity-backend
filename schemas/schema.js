@@ -15,6 +15,9 @@ import groomsmen from "./groomsmen";
 import bridesmaid from "./bridesmaid";
 import giftRegistry from "./giftRegistry";
 import rsvp from "./rsvp";
+import card from "./card";
+import sliderContent from "./sliderContent";
+
 // import sliderImage from "./sliderImage";
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -37,5 +40,7 @@ export default createSchema({
     bridesmaid,
     giftRegistry,
     rsvp,
+    card,
+    sliderContent,
   ]),
 });
