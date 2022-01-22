@@ -1,6 +1,6 @@
 export default {
-  name: "locationCard",
-  title: "Location Card",
+  name: "banner",
+  title: "Banner",
   type: "document",
   fields: [
     {
@@ -8,11 +8,7 @@ export default {
       title: "Title",
       type: "string",
     },
-    {
-      name: "subTitle",
-      title: "SubTitle",
-      type: "string",
-    },
+
     {
       title: "Description",
       name: "description",

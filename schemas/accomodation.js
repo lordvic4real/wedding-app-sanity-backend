@@ -25,37 +25,8 @@ export default {
       type: "array",
       of: [
         {
-          type: "image",
-          title: "Image",
-          name: "accImg",
+          type: "card",
         },
-        {
-          title: "Accomodation Info",
-          name: "accomodationIfo",
-          type: "object",
-          fields: [
-            {
-              title: "Title",
-              name: "title",
-              type: "string",
-            },
-            {
-              title: "Description",
-              name: "description",
-              type: "string",
-            },
-          ],
-        },
-        // {
-        //   type: "string",
-        //   title: "Accomodation Title",
-        //   name: "accomodationTitle",
-        // },
-        // {
-        //   type: "string",
-        //   title: "Accomodation Description",
-        //   name: "accomodationDescription",
-        // },
       ],
     },
     {

@@ -25,23 +25,7 @@ export default {
       type: "array",
       of: [
         {
-          type: "image",
-        },
-        {
-          name: "cardDetail",
-          type: "object",
-          fields: [
-            {
-              name: "cardTitle",
-              type: "string",
-              title: "Title",
-            },
-            {
-              name: "cardDescription",
-              type: "string",
-              title: "Description",
-            },
-          ],
+          type: "card",
         },
       ],
     },

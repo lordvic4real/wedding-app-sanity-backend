@@ -17,31 +17,13 @@ export default {
     {
       name: "bannerDescription",
       title: "Banner Description",
-      type: "string",
+      type: "text",
     },
     {
       name: "gift",
       title: "Gift",
       type: "array",
-      of: [
-        { type: "image" },
-        {
-          title: "Gift Detail ",
-          type: "object",
-          fields: [
-            {
-              type: "number",
-              name: "price",
-              title: "Price",
-            },
-            {
-              type: "string",
-              name: "title",
-              title: "Gift Title",
-            },
-          ],
-        },
-      ],
+      of: [{ type: "product" }],
     },
     {
       name: "FooterTitle",

@@ -17,8 +17,9 @@ import giftRegistry from "./giftRegistry";
 import rsvp from "./rsvp";
 import card from "./card";
 import sliderContent from "./sliderContent";
-
-// import sliderImage from "./sliderImage";
+import placesCard from "./placesCard";
+import banner from "./banner";
+import product from "./product";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -42,5 +43,8 @@ export default createSchema({
     rsvp,
     card,
     sliderContent,
+    placesCard,
+    banner,
+    product,
   ]),
 });

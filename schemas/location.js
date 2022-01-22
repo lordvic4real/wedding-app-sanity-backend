@@ -26,34 +26,17 @@ export default {
       type: "array",
       of: [
         {
-          type: "locationCard",
+          type: "card",
         },
       ],
-    },
-    {
-      name: "ceremonyLocationDesc",
-      title: "Ceremony Location Description",
-      type: "blockContent",
     },
     {
       name: "interestPlaces",
-      title: "Places Around Title",
+      title: "Places Around",
       type: "array",
       of: [
         {
-          type: "string",
-          name: "title",
-        },
-      ],
-    },
-    {
-      name: "interestPlacesDesc",
-      title: "Places Around description",
-      type: "array",
-      of: [
-        {
-          type: "string",
-          name: "desc",
+          type: "places",
         },
       ],
     },

@@ -6,6 +6,13 @@ export default {
 
   fields: [
     {
+      name: "banner",
+      title: "title",
+      type: "array",
+      of: [{ type: "banner" }],
+    },
+
+    {
       name: "email",
       type: "email",
       title: "Email",
